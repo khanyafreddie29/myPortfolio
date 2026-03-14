@@ -21,7 +21,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
     <!-- Pill bar — overflow:hidden here is safe, no dropdown inside -->
     <div class="navbar-pill" :class="{ scrolled }">
       <div class="nav-container">
-        <a href="#" class="logo">&lt;Dev /&gt;</a>
+        <a href="#about" class="logo">&lt;Dev /&gt;</a>
 
         <ul class="nav-links">
           <li><a href="#about"><span class="nav-num">01.</span> About</a></li>
@@ -30,7 +30,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
           <li><a href="#contact"><span class="nav-num">04.</span> Contact</a></li>
         </ul>
 
-        <a href="/Khanya Freddie.pdf" class="resume-btn" target="_blank">Resume</a>
+        <a href="src/public/Khanya Freddie CV.pdf" class="resume-btn" target="_blank">Resume</a>
 
         <button
           class="hamburger"

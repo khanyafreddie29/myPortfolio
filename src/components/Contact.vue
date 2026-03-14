@@ -30,14 +30,14 @@ const closeModal = () => {
     </div>
 
     <div class="contact-body">
-      <h3 class="big-heading">Get In Touch</h3>
+      <h3 class="big-heading">Ready to create?</h3>
       <p class="contact-description">
         I'm currently looking for new opportunities. Whether you have a question
         or just want to say hi, my inbox is always open! I'll try my best to get
         back to you as soon as possible.
       </p>
       <button class="say-hello-btn" @click="modalOpen = true">
-        Ready to connect?
+        Dis bonjour 💌
       </button>
     </div><!-- /.contact-body -->
    </div><!-- /.container -->
@@ -51,7 +51,7 @@ const closeModal = () => {
             <!-- Header -->
             <div class="modal-header">
               <div>
-                <h3 class="modal-title">Let's Connect ✨</h3>
+                <h3 class="modal-title">Let's Connect</h3>
                 <p class="modal-subtitle">Drop me a message and I'll get back to you as soon as possible.</p>
               </div>
               <button class="close-btn" @click="closeModal" aria-label="Close">
@@ -74,11 +74,11 @@ const closeModal = () => {
               <div class="form-row">
                 <div class="form-group">
                   <label for="name">Name</label>
-                  <input id="name" v-model="formData.name" type="text" placeholder="Your name" required />
+                  <input id="name" v-model="formData.name" type="text" placeholder="Jane Doe" required />
                 </div>
                 <div class="form-group">
                   <label for="email">Email</label>
-                  <input id="email" v-model="formData.email" type="email" placeholder="you@email.com" required />
+                  <input id="email" v-model="formData.email" type="email" placeholder="example@email.com" required />
                 </div>
               </div>
 

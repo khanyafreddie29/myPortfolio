@@ -14,8 +14,8 @@
         Currently focused on creating accessible, human-centered products.
       </p>
       <div class="cta">
-        <button class="btn-outline">View my work</button>
-        <button class="btn-solid">Get in touch</button>
+        <a href="#projects"><button class="btn-outline">View my work</button></a>
+        <a href="#contact"><button class="btn-solid">Get in touch</button></a>
       </div>
     </div>
 

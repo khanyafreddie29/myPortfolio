@@ -1,4 +1,5 @@
 <script setup>
+import BgShapes from './BgShapes.vue'
 const skills = [
   { name: 'HTML', category: 'FRONTEND', icon: 'https://img.icons8.com/color/48/html-5--v1.png' },
   { name: 'JavaScript', category: 'LANGUAGE', icon: 'https://img.icons8.com/color/48/javascript--v1.png' },
@@ -17,6 +18,7 @@ const skills = [
 
 <template>
   <section class="skills-section" id="skills">
+    <BgShapes />
     <div class="container">
       <div class="section-title">
         <h2>
@@ -49,6 +51,7 @@ const skills = [
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600&display=swap');
 
 .skills-section {
+  position: relative;
   width: 100%;
   box-sizing: border-box;
   background-color: #0a0a0f;
@@ -58,6 +61,8 @@ const skills = [
 }
 
 .container {
+  position: relative;
+  z-index: 1;
   max-width: 1100px;
   margin: 0 auto;
 }

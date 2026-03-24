@@ -1,8 +1,10 @@
 <script setup>
+import BgShapes from './BgShapes.vue'
 </script>
 
 <template>
   <section class="abt-hero" id="about">
+    <BgShapes />
 
     <!-- Hero / Intro -->
     <div class="hero">
@@ -47,19 +49,12 @@
           <p class="tech-intro">Here are some technologies I've been working with recently:</p>
 
           <ul class="tech-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Node.js</li>
-            <li>PHP</li>
-            <li>Vue.js</li>
+            <li>Typescript</li>
+            <li>Django</li>
             <li>React</li>
-            <li>Bootstrap</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>Git &amp; GitHub</li>
-            <li>Postman</li>
+            <li>Vue.js</li>
+            <li>Bun</li>
+            <li>Supabase</li>
           </ul>
         </div>
 
@@ -85,10 +80,13 @@
   font-family: 'Inter', sans-serif;
   color: #cbd5e1;
   box-sizing: border-box;
+  position: relative;
 }
 
 /* ── Hero ── */
 .hero {
+  position: relative;
+  z-index: 1;
   max-width: 1100px;
   margin: 0 auto;
   padding: 7rem 0 5rem;
@@ -184,6 +182,8 @@
 
 /* ── About ── */
 .abt {
+  position: relative;
+  z-index: 1;
   max-width: 1100px;
   margin: 0 auto;
   padding: 5rem 0 6rem;

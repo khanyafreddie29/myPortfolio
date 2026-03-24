@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import BgShapes from './BgShapes.vue'
 
 const modalOpen = ref(false)
 const formData = ref({ name: '', email: '', subject: '', message: '' })
@@ -22,6 +23,7 @@ const closeModal = () => {
 
 <template>
   <section class="contact-section" id="contact">
+   <BgShapes />
    <div class="container">
     <!-- Section heading -->
     <div class="section-title">
@@ -113,6 +115,7 @@ const closeModal = () => {
 
 /* ── Base ── */
 .contact-section {
+  position: relative;
   background-color: #0a0a0f;
   padding: 5rem 2rem 7rem;
   font-family: 'Inter', sans-serif;
@@ -121,6 +124,8 @@ const closeModal = () => {
 }
 
 .container {
+  position: relative;
+  z-index: 1;
   max-width: 1100px;
   margin: 0 auto;
 }

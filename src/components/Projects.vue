@@ -1,17 +1,28 @@
 <script setup>
+import BgShapes from './BgShapes.vue'
 const projects = [
   {
     num: 1,
     label: 'Featured Project',
     title: 'RoyalGame Console - under development',
     description: 'Fullstack interactive browser game console with singleon player mode implementing component structure, centralisated state management, custom game engine with save game logic and player registration. ',
-    tech: ['Vue.js', 'Node.js', 'Express.js', 'MongoDB', 'CSS'],
+    tech: ['Vue.js', 'CSS', 'Bun', 'Express.js', 'MongoDB'],
     image: 'src/assets/royalgame.png',
     github: 'https://github.com/khanyafreddie29/gameWebConsole',
     live: '#',
   },
    {
     num: 2,
+    label: 'Featured Project',
+    title: 'GeoLocation Clock In',
+    description: 'Fullstack application applying frontend and backend across the entire development process to deliver a functional and accessible solution. ',
+    tech: ['React', 'CSS', 'Bun', 'Express.js', 'Supabase'],
+    image: 'src/assets/geolocation-clockin.png',
+    github: 'https://github.com/khanyafreddie29/geoLocationClockIn',
+    live: 'https://geo-location-clock-in.vercel.app/',
+  },
+  {
+    num: 3,
     label: 'Featured Project',
     title: 'VaultEdge Security',
     description: 'Fullstack application applying frontend and backend across the entire development process to deliver a functional and accessible solution. ',
@@ -26,6 +37,7 @@ const projects = [
 
 <template>
   <section class="projects-section" id="projects">
+    <BgShapes />
     <div class="container">
 
       <!-- Title -->
@@ -92,6 +104,7 @@ const projects = [
 
 /* ── Base ── */
 .projects-section {
+  position: relative;
   width: 100%;
   box-sizing: border-box;
   background-color: #0a0a0f;
@@ -101,6 +114,8 @@ const projects = [
 }
 
 .container {
+  position: relative;
+  z-index: 1;
   max-width: 1100px;
   margin: 0 auto;
 }

@@ -27,7 +27,8 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
           <li><a href="#about"><span class="nav-num">01.</span> About</a></li>
           <li><a href="#skills"><span class="nav-num">02.</span> Skills</a></li>
           <li><a href="#projects"><span class="nav-num">03.</span> Projects</a></li>
-          <li><a href="#contact"><span class="nav-num">04.</span> Contact</a></li>
+          <li><a href="#certifications"><span class="nav-num">05.</span> Certs</a></li>
+          <li><a href="#contact"><span class="nav-num">05.</span> Contact</a></li>
         </ul>
 
         <a href="src/public/Khanya Freddie CV.pdf" class="resume-btn" target="_blank">Resume</a>

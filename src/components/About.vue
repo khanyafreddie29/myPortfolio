@@ -12,8 +12,7 @@ import BgShapes from './BgShapes.vue'
       <h1 class="name">Khanya Freddie.</h1>
       <h2 class="tagline">I build things for the web.</h2>
       <p class="bio">
-        A passionate full-stack developer specialising in building exceptional digital experiences.
-        Currently focused on creating accessible, human-centered products.
+        Building solutions that combine clean design with reliable performance.
       </p>
       <div class="cta">
         <a href="#projects"><button class="btn-outline">View my work</button></a>
@@ -38,13 +37,12 @@ import BgShapes from './BgShapes.vue'
         <!-- Left: text -->
         <div class="abt-content">
           <p>
-            Hello! I'm Khanya, a fullstack developer who loves crafting elegant solutions to complex
-            problems. As a fullstack developer, I enjoy building solutions that combine clean design with reliable performance.
+            Hello! I'm Khanya, a fullstack developer who enjoys building solutions that combine clean design with reliable performance.
           </p>
           <p>
             My goal is to create tools that are not only efficient but also meaningful for the people who use them. 
             I am motivated by opportunities to grow, innovate, and contribute. 
-            I am also firm believer in continous learning, as there is always something or someone to learn 
+            I am also firm believer in continous learning, as there is always something or someone to learn from.
           </p>
           <p class="tech-intro">Here are some technologies I've been working with recently:</p>
 
@@ -113,10 +111,11 @@ import BgShapes from './BgShapes.vue'
 .tagline {
   font-size: clamp(1.6rem, 5vw, 3rem);
   font-weight: 600;
-  color: #475569;
+  /* color: #475569; */
   margin: 0 0 1.8rem;
   letter-spacing: -0.02em;
   line-height: 1.2;
+  color: linear-gradient( to left, #ff6b8a, #ffff);
 }
 
 .bio {

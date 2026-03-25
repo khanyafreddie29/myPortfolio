@@ -44,7 +44,7 @@ const socials = [
         <!-- Copyright -->
         <p class="copy">
           <span class="name">Khanya Freddie</span>
-          &mdash; &copy; 2026
+          &mdash; &copy; 2026 | All rights reserved
         </p>
       </div>
 

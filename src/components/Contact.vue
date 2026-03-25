@@ -6,14 +6,35 @@ const modalOpen = ref(false)
 const formData = ref({ name: '', email: '', subject: '', message: '' })
 const submitted = ref(false)
 
-const handleSubmit = () => {
-  console.log('Form submitted:', formData.value)
-  submitted.value = true
-  setTimeout(() => {
-    submitted.value = false
-    modalOpen.value = false
-    formData.value = { name: '', email: '', subject: '', message: '' }
-  }, 2500)
+const handleSubmit =  async () => {
+  try{
+    const response = await fetch('https://formspree.io/f/xzzjggbw', {
+      method: 'POST',
+      headers:{
+        'Content-type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+        name: formData.value.name,
+        email: formData.value.email,
+        subject: formData.value.subject,
+        message: formData.value.message
+      })
+    })
+
+    if (response.ok){
+      submitted.value = true,
+      setTimeout(() => {
+        submitted.value = false,
+        modalOpen.value = false,
+        formData.value = {name: '', email: '', subject: '', message: ''}
+      }, 5000)
+    } else {
+      alert('Something went wrong. Please try again')
+    }
+  } catch (error){
+    alert('Something went wrong. Please try again')
+  }
 }
 
 const closeModal = () => {

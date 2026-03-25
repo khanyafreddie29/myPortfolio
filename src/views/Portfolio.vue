@@ -7,6 +7,7 @@ import LoadingScreen from '@/components/LoadingScreen.vue';
 import Navbar from '@/components/Navbar.vue';
 import Projects from '@/components/Projects.vue';
 import Skills from '@/components/Skills.vue';
+import Certifications from '@/components/Certifications.vue';
 
 const loaded = ref(false)
 </script>
@@ -18,7 +19,8 @@ const loaded = ref(false)
          <Navbar/>
             <About/>
                 <Skills/>
-                <Projects/>
+                    <Projects/>
+                    <Certifications/>
             <Contact/>
         <Footer/>
        </template>

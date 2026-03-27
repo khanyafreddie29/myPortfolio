@@ -53,7 +53,7 @@ const closeModal = () => {
     </div>
 
     <div class="contact-body">
-      <h3 class="big-heading">Ready to create?</h3>
+      <h4 class="big-heading">Ready to create?</h4>
       <p class="contact-description">
         I'm currently looking for new opportunities. Whether you have a question
         or just want to say hi, my inbox is always open! I'll try my best to get
@@ -185,7 +185,7 @@ const closeModal = () => {
   margin: 0 auto;
 }
 .big-heading {
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2rem, 5vw, 2rem);
   color: #f1f5f9;
   font-weight: 700;
   letter-spacing: -0.03em;

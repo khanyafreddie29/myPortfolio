@@ -160,7 +160,7 @@ import BgShapes from './BgShapes.vue'
 
 .btn-solid {
   background: #ff6b8a;
-  border: 1px solid #ff6b8a;
+  border: 2px solid #ff6b8a;
   color: #0a0a0f;
   font-weight: 600;
 }

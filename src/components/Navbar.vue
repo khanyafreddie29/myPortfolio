@@ -156,7 +156,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
   font-size: 0.83rem;
   color: #ff6b8a;
   text-decoration: none;
-  border: 1px solid rgba(255, 107, 138, 0.45);
+  border: 2px solid rgba(255, 107, 138, 0.45);
   padding: 0.5rem 1.2rem;
   border-radius: 15px;
   white-space: nowrap;

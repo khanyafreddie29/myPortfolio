@@ -17,6 +17,7 @@ const skills = [
   { name: 'MySQL', category: 'DATABASE', icon: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-mysql-an-open-source-relational-database-management-system-logo-color-tal-revivo.png' },
   { name: 'Git', category: 'DEVOPS', icon: 'https://img.icons8.com/fluency/48/git.png' },
   { name: 'GitHub', category: 'DEVOPS', icon: 'https://img.icons8.com/fluency/48/github.png' },
+  { name: 'Bun', category: 'PACKAGE MANAGER', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bun/bun-original.svg' },
 ]
 </script>
 

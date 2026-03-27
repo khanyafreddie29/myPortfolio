@@ -48,7 +48,7 @@ const closeModal = () => {
    <div class="container">
     <!-- Section heading -->
     <div class="section-title">
-      <h2><span class="num">04.</span><span class="label">What's Next?</span></h2>
+      <h2><span class="num">05.</span><span class="label">What's Next?</span></h2>
       <div class="title-line"></div>
     </div>
 

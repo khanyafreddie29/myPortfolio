@@ -45,7 +45,7 @@ const certs = [
       <!-- Title -->
       <div class="section-title">
         <h2>
-          <span class="num">05.</span>
+          <span class="num">04.</span>
           <span class="label">Certifications</span>
         </h2>
         <div class="title-line"></div>

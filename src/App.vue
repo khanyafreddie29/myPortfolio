@@ -1,10 +1,12 @@
 <script setup>
-import Portfolio from './views/Portfolio.vue';
+import { RouterView } from 'vue-router';
+
+
 
 </script>
 
 <template>
-  <Portfolio/>
+  <RouterView/>
 </template>
 
 <style>

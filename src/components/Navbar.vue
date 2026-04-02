@@ -55,7 +55,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
         <li><a href="#certifications" @click="menuOpen = false"><span class="nav-num">04.</span> Certs</a></li>
         <li><a href="#contact"  @click="menuOpen = false"><span class="nav-num">05.</span> Contact</a></li>
       </ul>
-      <a href="/src/public/Khanya Freddie CV.pdf" target="_blank" class="resume-btn mobile-resume">Resume</a>
+      <a href="/Khanya Freddie CV.pdf" target="_blank" class="resume-btn mobile-resume">Resume</a>
     </div>
 
   </div>

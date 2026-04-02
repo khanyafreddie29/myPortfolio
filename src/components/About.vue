@@ -58,7 +58,7 @@ import BgShapes from './BgShapes.vue'
 
         <!-- Right: image -->
         <div class="img-wrapper">
-         <img src="/src/public/hello-kitty.jpg" alt="" class="img-placeholder">
+         <img src="/src/public/images/hello-kitty.jpg" alt="" class="img-placeholder">
         </div>
       </div>
     </div>

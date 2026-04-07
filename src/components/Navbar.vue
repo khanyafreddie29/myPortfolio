@@ -31,7 +31,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
           <li><a href="#contact"><span class="nav-num">05.</span> Contact</a></li>
         </ul>
 
-        <a href="src/public/Khanya Freddie CV.pdf" class="resume-btn" target="_blank">Resume</a>
+        <a href="/Khanya Freddie CV.pdf" class="resume-btn" target="_blank">Resume</a>
 
         <button
           class="hamburger"

@@ -12,28 +12,28 @@ const certs = [
     issuer: 'University of Michigan',
     date: 'Issued Dec 2025',
     verify: 'https://coursera.org/share/267644e61caa6768a3385407904642fc',
-    logo: '/images/py4e.jpg',
+    logo: 'public/images/py4e.jpg',
   },
   {
     name: 'Mobile App Development',
     issuer: 'LC Studio',
     date: 'Issued Jan 2026',
     verify: 'https://openbadges.education/public/assertions/t4qLlK-YRYOqY1glJgb3lA',
-    logo: '/images/Mobile_App Development.png',
+    logo: 'public/images/Mobile_App Development.png',
   },
   {
     name: 'API Integration Developer',
     issuer: 'LC Studio',
     date: 'Issued Feb 2026',
     verify: 'https://openbadges.education/public/assertions/o8ze6jTbQvGZi4eFTq524A',
-    logo: '/images/API_Integration Developer.png',
+    logo: 'public/images/API_Integration Developer.png',
   },
   {
     name: 'Fintech Web Developer',
     issuer: 'LC Studio',
     date: 'Issued Mar 2026',
     verify: 'https://openbadges.education/public/assertions/lVX8vp-DRnisVp4UJprhFQ',
-    logo: '/images/Fintech_Web Developer.png',
+    logo: 'public/images/Fintech_Web Developer.png',
   }
 ]
 </script>
